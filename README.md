@@ -10,22 +10,23 @@ This project is designed for **DBMS coursework**, **system internals understandi
 ## 📁 Project Structure
 
 B-Plus-Tree/
-├── build/ # CMake build directory
-├── examples/ # Example usage (optional)
-├── img/ # Diagrams / explanation images (optional)
+├── build/                 # CMake build directory
+├── examples/              # Example usage (optional)
+├── img/                   # Diagrams / explanation images (optional)
 ├── include/
-│ └── bptree/
-│ └── bptree.hpp
+│   └── bptree/
+│       └── bptree.hpp
 ├── src/
-│ ├── insertion.cpp
-│ ├── search.cpp
-│ ├── removal.cpp
-│ ├── display.cpp
-│ ├── utils.cpp
-│ └── main.cpp
-├── DBFiles/ # Simulated disk storage (REQUIRED at runtime)
+│   ├── insertion.cpp
+│   ├── search.cpp
+│   ├── removal.cpp
+│   ├── display.cpp
+│   ├── utils.cpp
+│   └── main.cpp
+├── DBFiles/               # Simulated disk storage (REQUIRED at runtime)
 ├── CMakeLists.txt
 └── README.md
+
 
 
 ⚠️ **Important**  
@@ -82,4 +83,3 @@ Designed for educational clarity, not production use
 ✍️ Author
 Sai Raghava
 Language: C++ (C++17)
-Project Type: DBMS / Systems Programming
