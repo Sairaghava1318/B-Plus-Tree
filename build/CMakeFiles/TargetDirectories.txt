@@ -1,0 +1,6 @@
+C:/Users/saira/OneDrive/Desktop/My Projects/Dbms Projects/B-Plus-Tree-master/B-Plus-Tree-master/build/CMakeFiles/bptree.dir
+C:/Users/saira/OneDrive/Desktop/My Projects/Dbms Projects/B-Plus-Tree-master/B-Plus-Tree-master/build/CMakeFiles/bptree_demo.dir
+C:/Users/saira/OneDrive/Desktop/My Projects/Dbms Projects/B-Plus-Tree-master/B-Plus-Tree-master/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/saira/OneDrive/Desktop/My Projects/Dbms Projects/B-Plus-Tree-master/B-Plus-Tree-master/build/CMakeFiles/INSTALL.dir
+C:/Users/saira/OneDrive/Desktop/My Projects/Dbms Projects/B-Plus-Tree-master/B-Plus-Tree-master/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/saira/OneDrive/Desktop/My Projects/Dbms Projects/B-Plus-Tree-master/B-Plus-Tree-master/build/CMakeFiles/ZERO_CHECK.dir

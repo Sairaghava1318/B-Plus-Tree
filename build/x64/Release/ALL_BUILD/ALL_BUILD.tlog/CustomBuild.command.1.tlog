@@ -1,0 +1,10 @@
+^C:\USERS\SAIRA\ONEDRIVE\DESKTOP\MY PROJECTS\DBMS PROJECTS\B-PLUS-TREE-MASTER\B-PLUS-TREE-MASTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/saira/OneDrive/Desktop/My Projects/Dbms Projects/B-Plus-Tree-master/B-Plus-Tree-master" "-BC:/Users/saira/OneDrive/Desktop/My Projects/Dbms Projects/B-Plus-Tree-master/B-Plus-Tree-master/build" --check-stamp-file "C:/Users/saira/OneDrive/Desktop/My Projects/Dbms Projects/B-Plus-Tree-master/B-Plus-Tree-master/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

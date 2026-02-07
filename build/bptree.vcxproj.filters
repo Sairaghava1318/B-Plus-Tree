@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\saira\OneDrive\Desktop\My Projects\Dbms Projects\B-Plus-Tree-master\B-Plus-Tree-master\src\display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\saira\OneDrive\Desktop\My Projects\Dbms Projects\B-Plus-Tree-master\B-Plus-Tree-master\src\insertion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\saira\OneDrive\Desktop\My Projects\Dbms Projects\B-Plus-Tree-master\B-Plus-Tree-master\src\removal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\saira\OneDrive\Desktop\My Projects\Dbms Projects\B-Plus-Tree-master\B-Plus-Tree-master\src\search.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\saira\OneDrive\Desktop\My Projects\Dbms Projects\B-Plus-Tree-master\B-Plus-Tree-master\src\utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\saira\OneDrive\Desktop\My Projects\Dbms Projects\B-Plus-Tree-master\B-Plus-Tree-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{56C93801-4CFF-31C5-BCFF-287CBCEAF320}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
