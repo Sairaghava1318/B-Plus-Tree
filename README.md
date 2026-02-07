@@ -1,16 +1,18 @@
 # B+ Tree Implementation (DBMS Project)
 
-A **C++17 implementation of a B+ Tree index** that simulates **database indexing with disk-based storage** using files.  
-This project is intended for **DBMS learning**, **system internals understanding**, and **academic use**.
+A **C++ implementation of a B+ Tree index** that simulates **disk-based database indexing**
+using file-based storage.  
+This project is designed for **DBMS coursework**, **system internals understanding**, and
+**academic use**.
 
 ---
 
 ## 📁 Project Structure
 
 B-Plus-Tree/
-├── build/ # Compiled binaries (CMake output)
-├── examples/ # Example usage
-├── img/ # Images (optional, for explanation)
+├── build/ # CMake build directory
+├── examples/ # Example usage (optional)
+├── img/ # Diagrams / explanation images (optional)
 ├── include/
 │ └── bptree/
 │ └── bptree.hpp
@@ -25,46 +27,59 @@ B-Plus-Tree/
 ├── CMakeLists.txt
 └── README.md
 
+
 ⚠️ **Important**  
-The `DBFiles/` directory **must exist before running the program**, otherwise file creation will fail.
+The `DBFiles/` directory **must exist before running the program**.  
+All B+ Tree nodes are stored as files inside this directory to simulate disk pages.
 
 ---
 
 ## 🚀 Features
 
-- Complete **B+ Tree operations** (Insert, Search, Delete)
-- **Disk-based simulation** using files (`FILE*`)
-- **Leaf node linking** for efficient sequential access
-- **Right-biased node splitting** (DBMS standard)
-- Works on **Windows / Linux / macOS**
-- Written in **modern C++17**
+- Complete **B+ Tree operations**
+  - Insert
+  - Search
+  - Delete
+- **Disk-based node storage** using file I/O (`FILE*`)
+- **Leaf node linking** for efficient sequential and range queries
+- **Right-biased node splitting** (standard DBMS behavior)
+- Cross-platform support (**Windows / Linux / macOS**)
+- Written in **modern C++ (C++17)**
 
 ---
 
-## 🔧 Build & Run (Windows + VS Code)
+## 🔧 Build & Run (Windows – Visual Studio + VS Code)
 
 ### Prerequisites
 
-- Visual Studio (**Desktop development with C++**)
-- CMake
+- Visual Studio 2019 or later  
+  *(Desktop development with C++ workload installed)*
+- CMake 3.15 or higher
 
 ---
----
 
-## 🔧 Build
+## 🔨 Build Instructions
 
+Open **PowerShell** or **VS Code Terminal** in the project root:
 
-powershell
+```powershell
 mkdir build
 cd build
 cmake ..
 cmake --build . --config Release
----
-
-## Run 
+▶️ Run
 cd Release
 bptree_demo.exe
- 
-# Authored By 
+🧠 Notes
+Ensure DBFiles/ exists before execution
+
+Each node is stored as a separate file to simulate disk I/O
+
+Leaf nodes are linked for fast sequential traversal
+
+Designed for educational clarity, not production use
+
+✍️ Author
 Sai Raghava
-Language: C++ (C++20)
+Language: C++ (C++17)
+Project Type: DBMS / Systems Programming
