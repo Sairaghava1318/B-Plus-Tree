@@ -9,10 +9,11 @@ This project is designed for **DBMS coursework**, **system internals understandi
 
 ## 📁 Project Structure
 
+<pre>
 B-Plus-Tree/
-├── build/                 # CMake build directory
-├── examples/              # Example usage (optional)
-├── img/                   # Diagrams / explanation images (optional)
+├── build/                  # CMake build directory
+├── examples/               # Example usage (optional)
+├── img/                    # Diagrams / explanation images (optional)
 ├── include/
 │   └── bptree/
 │       └── bptree.hpp
@@ -23,9 +24,12 @@ B-Plus-Tree/
 │   ├── display.cpp
 │   ├── utils.cpp
 │   └── main.cpp
-├── DBFiles/               # Simulated disk storage (REQUIRED at runtime)
+├── DBFiles/                # Simulated disk storage (REQUIRED at runtime)
 ├── CMakeLists.txt
 └── README.md
+</pre>
+
+
 
 
 
